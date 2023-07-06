@@ -187,7 +187,7 @@ def conjugation_consumables_all(conjugation_mix, consumables_list, plasmid_antib
     worksheet.set_column(0, max_col - 1, 30)
 
     writer.save()
-
+    writer.close()
 
     #Nice print in Jupyter
     df_toshow = df[(df['Type'] == "Sample (E. coli)") | (df['Type'] == "Sample (Streptomyces)")].iloc[:,:-1]
@@ -288,7 +288,7 @@ def transformation_consumables_all(plasmid_names, competent_cell, plasmid_antibi
     worksheet.set_column(0, max_col - 1, 30)
 
     writer.save()
-
+    writer.close()
 
     #Nice print in Jupyter
     df_toshow = df[(df['Type'] == "Sample (E. coli with plasmid)") | (df['Type'] == "Sample (E. coli with competent cell)")].iloc[:,:-1]
