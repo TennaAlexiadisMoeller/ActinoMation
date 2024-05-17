@@ -3,7 +3,7 @@ My PhD project revolving laboratory automation of actinomycetes (mostly streptom
 
 
 Installation guide:
-All of the .py scripts will need to be in a folder for itself included with the __init__.py file. This folder will have to be named "python_scripts".
+All of the .py scripts will need to stay in the folders as they work with the respecitve __init__.py files.
 
 Dependencies so far found necessary to install, if not run through Anaconda Jupyter Notebook, are:
 
